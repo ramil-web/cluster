@@ -1,0 +1,44 @@
+.main-cropper-wrapper
+{
+  background-color: #fff;
+  padding: 10px;
+}
+
+.test-cropper
+{
+  color: red;
+}
+
+.img-preview
+{
+  background-color: #f72228;
+  text-align:       center;
+  width:            100%;
+}
+
+.img-preview
+{
+  margin-bottom: .5rem;
+  margin-right:  .5rem;
+  overflow:      hidden;
+  height:        150px;
+  width:         300px;
+}
+
+.img-preview > img
+{
+  max-width: 100%;
+}
+
+.original-wrapper
+{
+  margin: 0!important;
+}
+
+
+
+
+
+
+
+

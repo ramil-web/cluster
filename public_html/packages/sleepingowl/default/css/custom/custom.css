@@ -1,0 +1,52 @@
+.slider_wrap .form-element-image:nth-child(1) {
+    width: 100%;
+}
+
+.slider_wrap .form-element-image:nth-child(1) .form-element-files__item ,
+.slider_wrap .form-element-image:nth-child(2) .form-element-files__item {
+    width: 100%;
+    height: auto;
+}
+.slider_wrap .form-element-image:nth-child(1) .form-element-files__item .form-element-files__image ,
+.slider_wrap .form-element-image:nth-child(2) .form-element-files__item .form-element-files__image {
+    width: 100%;
+    height: auto;
+}
+
+.slider_wrap .form-element-image:nth-child(1) .form-element-files__item .form-element-files__image>img ,
+.slider_wrap .form-element-image:nth-child(2) .form-element-files__item .form-element-files__image>img {
+    /*width: 100%;*/
+    max-height: 100%;
+}
+
+.main-slider-img-1 img.thumbnail{
+    width: 100%;
+}
+
+.remove-add-btn
+{
+
+}
+
+/*^^^^^^^^^^^^^^^^^^^^Иконки */
+
+.index-icons img.thumbnail{
+    width: 100%;
+    margin: 0;
+}
+
+.icons_wrap .form-element-image:nth-child(1) .form-element-files__item .form-element-files__image ,
+.icons_wrap .form-element-image:nth-child(2) .form-element-files__item .form-element-files__image {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #ccc;
+}
+
+.icons_wrap .form-element-image:nth-child(1) .form-element-files__item .form-element-files__image>img ,
+.icons_wrap .form-element-image:nth-child(2) .form-element-files__item .form-element-files__image>img {
+    width: 100px;
+    height: 100px;
+}
+/*____________________Иконки */
+

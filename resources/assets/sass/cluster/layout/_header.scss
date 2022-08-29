@@ -1,0 +1,32 @@
+/*------------------------------------------------------------------
+  	[Header]
+------------------------------------------------------------------*/
+
+@keyframes header_hide {
+  from {top: 0;}
+  to {top: -60px;}
+}
+
+@keyframes header_show {
+  from {top: -60px;}
+  to {top: 0;}
+}
+
+.main-header {
+  
+  &.header-hide {
+    animation: header_hide  .4s ease-in;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  &.header-show {
+    animation: header_show  .4s ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  .header-bottom {
+    background-color: #fff;
+    border-bottom: 1px solid $laravel-border-color;
+  }
+}
